@@ -1,4 +1,4 @@
-# Movement_classification using pyspark mllib
+# Movement Classification using Pyspark mllib
 Classifying whether a person is walking or running from the data received from the accelerometer in our smartphone
 
 # Files
