@@ -1,5 +1,10 @@
-# movement_classification
+# Movement_classification using pyspark mllib
 Classifying whether a person is walking or running from the data received from the accelerometer in our smartphone
+
+# Files
+ preprocess.py - used to preprocess the data and split it into train and test
+ hdfs_preprocess.py - used to preprocess the data and split it into train and test after loading it from hadoop filesystem
+ train.py - used to train a model and test it on test data
  
 # Requirements
 1) Python 2.7 <br>
@@ -12,12 +17,12 @@ Classifying whether a person is walking or running from the data received from t
 Start Hadoop file system by running these commands in the terminal
 
 <code>
-start-dfs.sh
+start-dfs.sh <br>
 start-yarn.sh
 </code>
 
 Open the terminal and run the following commands
-<code>
+<code><
 spark-submit path/python_file.py                                                                                
 </code>
  
