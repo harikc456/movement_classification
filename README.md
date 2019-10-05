@@ -16,26 +16,32 @@ Classifying whether a person is walking or running from the data received from t
 You can skip the first two commands if you are not using HDFS
 
 Start Hadoop file system by running these commands in the terminal
+<br>
 <code>
 start-dfs.sh 
 </code>
 
 Start yarn using the below command
+<br>
 <code>
 start-yarn.sh
 </code>
 
 Open the terminal and run the following commands
 If you're using hdfs use the below command
+<br>
 <code>
 spark-submit hdfs_preprocess.py                                                                               
 </code>
 
 If you've the file locally, then run the preprocess.py file
+<br>
 <code>
-spark-submitpreprocess.py                                                                               
+spark-submit preprocess.py                                                                               
 </code>
+
 Train and save the model by the below command
+<br>
 <code>
 spark-submit train.py                                                                               
 </code>
