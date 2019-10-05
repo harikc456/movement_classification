@@ -2,9 +2,9 @@
 Classifying whether a person is walking or running from the data received from the accelerometer in our smartphone
 
 # Files
- preprocess.py - used to preprocess the data and split it into train and test
- hdfs_preprocess.py - used to preprocess the data and split it into train and test after loading it from hadoop filesystem
- train.py - used to train a model and test it on test data
+ preprocess.py - used to preprocess the data and split it into train and test <br>
+ hdfs_preprocess.py - used to preprocess the data and split it into train and test after loading it from hadoop filesystem <br>
+ train.py - used to train a model and test it on test data <br>
  
 # Requirements
 1) Python 2.7 <br>
